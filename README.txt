@@ -5,8 +5,9 @@ Version 1.0.0
 Type Racer Champion is an extension that allows you to cheat at Type Racer by using the spacebar and your voice to "type".
 
 Copyright 2013 David Reing
-Special Thanks to David Mauro for the Keypress.js library. 
-Visit [http://dmauro.github.io/Keypress/]
+Special Thanks to:
+David Mauro for the Keypress.js library. [http://dmauro.github.io/Keypress/]
+Alex Wolkov for the Extensionizr tool. [http://extensionizr.com/]
 
 
 **What's New**
