@@ -6,11 +6,11 @@ function getText() {
 		if ((spans[i].outerHTML + "").indexOf("text-decoration: underline") != -1) { 
 			//console.log(spans[i].innerText); 
 			var inputs = document.getElementsByClassName("txtInput"); 
-			console.log(inputs.length);
+			//console.log(inputs.length);
 			for(var j=0;j<inputs.length;j++) { 
-				console.log("inner = #" + inputs[j].value+"#");
+				//console.log("inner = #" + inputs[j].value+"#");
 				if (inputs[j].innerText =="") {
-					console.log("write it");
+					//console.log("write it");
 					inputs[j].value = spans[i].innerText+spans[i+1].innerText;
 				}
 			}
@@ -65,6 +65,7 @@ recognition.onresult = function(event) {
 		final_transcript = final_transcript[0].toUpperCase()+final_transcript.slice(1);
 		testTextField.value = final_transcript;
 
+		//auto submit works!
 		var submitButton = document.getElementsByClassName("gwt-Button")[0];
 		submitButton.click();
 	}
