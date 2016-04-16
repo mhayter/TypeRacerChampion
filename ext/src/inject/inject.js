@@ -1,4 +1,14 @@
 
+
+function keyDownTextField(e) {
+	var keyCode = e.keyCode;
+	  if(keyCode==32) {
+	  	getText();
+	  } else {
+	   	console.log("Oh no you didn't.");
+	  }
+}
+
 function getText() {
 	var spans = document.getElementsByTagName("span");
 	for(var i = 0;i < spans.length;i++) {
@@ -20,7 +30,8 @@ function getText() {
 
 keypress.combo("ctrl shift !", function() {
 	console.log("Get text activated");
-	setInterval(getText, 200);	
+	getText();
+	document.addEventListener("keydown", keyDownTextField, false);
 });
 keypress.combo("ctrl shift @", function() {
 	console.log('speech recognition activated');

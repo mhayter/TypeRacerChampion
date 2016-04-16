@@ -1,8 +1,8 @@
 {
-  "name": "Type Racer Champion",
-  "version": "1.0.0",
+  "name": "TypeRacer Cheat",
+  "version": "1.0.1",
   "manifest_version": 2,
-  "description": "This extension will get you to the top of the type racer leader boards at typeracer.com . Simply press CTRL+Shift+1 at the start of your race. Then rapidly hit SPACEBAR to type each word. To pass verification press CTRL+SHIFT+2 when the test begins and allow your microphone to turn on. Simply read the text then to type it out.",
+  "description": "This extension will get you to the top of the typeracer leader boards at typeracer.com . Simply press CTRL+Shift+1 at the start of your race. Then rapidly hit SPACEBAR to type each word. To pass verification press CTRL+SHIFT+2 when the test begins and allow your microphone to turn on. Simply read the text then to type it out.",
   "homepage_url": "https://github.com/dreing1130/TypeRacerChampion",
   "icons": {
     "16": "icons/icon16.png",
